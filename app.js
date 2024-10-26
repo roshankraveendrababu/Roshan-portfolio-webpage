@@ -1,4 +1,4 @@
-// Smooth scrolling for anchor links
+// Smooth scrolling
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -13,7 +13,7 @@ window.addEventListener("scroll", function () {
     const skills = document.querySelectorAll(".progress-line span");
     skills.forEach(skill => {
         const skillPos = skill.getBoundingClientRect().top;
-        const screenPos = window.innerHeight / 1.5;
+        const screenPos = window.innerHeight / 1.3;
         if (skillPos < screenPos) {
             skill.style.width = skill.getAttribute("data-progress");
         }
