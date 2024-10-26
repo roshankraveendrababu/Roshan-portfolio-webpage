@@ -1,16 +1,14 @@
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Portfolio Code</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
-
 <body>
   <header class="header">
     <nav class="navbar">
@@ -20,7 +18,7 @@
         </div>
         <ul class="menu-items">
           <li><a href="#about">About</a></li>
-          <li><a href="#my-works">Portfolio</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact-me">Contact</a></li>
         </ul>
       </div>
@@ -35,92 +33,58 @@
       </div>
     </div>
   </header>
+
+  <!-- About Section -->
   <section class="about-me" id="about">
     <div class="container">
+      <h1 class="section-title">About Me</h1>
       <div class="about-content">
-        <div class="left-content">
-          <div>
-            <h1 class="about-heading">About Me</h1>
-          </div>
-          <img src="https://i.postimg.cc/Hx4nChpH/fbavatar-1630400663387-6838396024049256103.png" alt="image" />
-          <p>
-            I am 19 year old, BE-C.S.E student studing at Sathyabama institute of science and technology.
-            I really enjoy solving new problem and test out my brain more often than not.Passionate about machine learning, data visualization, and impactful data solutions, 
-            I'm dedicated to transforming complex datasets into actionable knowledge.
-          </p>
-          <div class="work-arrow">
-            <p>
-              <a href="#my-works">Check out my work <i class="fas fa-arrow-down"></i></a>
-            </p>
-          </div>
+        <img src="https://i.postimg.cc/Hx4nChpH/fbavatar-1630400663387-6838396024049256103.png" alt="Roshan's Avatar" />
+        <p>I am a 19-year-old CSE student at Sathyabama Institute of Science and Technology. Passionate about machine learning, data visualization, and impactful data solutions, I’m dedicated to transforming complex datasets into actionable insights.</p>
+      </div>
+      <h2 class="skills-title">My Skills</h2>
+      <div class="skills">
+        <div class="bar">
+          <div class="info"><span>SQL</span></div>
+          <div class="progress-line"><span class="sql" data-progress="90%"></span></div>
         </div>
-        <div class="skills">
-          <div class="right-content">
-            <div>
-              <h1 class="skills-heading">My Skills</h1>
-            </div>
-            <div class="skills-bar">
-              <div class="bar">
-                <div class="info">
-                  <span>SQL</span>
-                </div>
-                <div class="progress-line"><span class="html"></span></div>
-                <div class="bar">
-                  <div class="info">
-                    <span>Python</span>
-                  </div>
-                  <div class="progress-line"><span class="css"></span></div>
-                  <div class="bar">
-                    <div class="info">
-                      <span>Power BI</span>
-                    </div>
-                    <div class="progress-line"><span class="bootstrap"></span></div>
-                    <div class="bar">
-                      <div class="info">
-                        <span>Machine Learning</span>
-                      </div>
-                      <div class="progress-line"><span class="javascript"></span></div>
-                      <div class="bar">
-                        <div class="info">
-                          <span>Cloud skills</span>
-                        </div>
-                        <div class="progress-line"><span class="c"></span></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="work-arrow-2">
-              <p>
-                <a href="#my-works">Check out my work <i class="fas fa-arrow-down"></i></a>
-              </p>
-            </div>
-          </div>
+        <div class="bar">
+          <div class="info"><span>Python</span></div>
+          <div class="progress-line"><span class="python" data-progress="85%"></span></div>
+        </div>
+        <div class="bar">
+          <div class="info"><span>Power BI</span></div>
+          <div class="progress-line"><span class="powerbi" data-progress="80%"></span></div>
+        </div>
+        <div class="bar">
+          <div class="info"><span>Machine Learning</span></div>
+          <div class="progress-line"><span class="ml" data-progress="75%"></span></div>
+        </div>
+        <div class="bar">
+          <div class="info"><span>Cloud Skills</span></div>
+          <div class="progress-line"><span class="cloud" data-progress="70%"></span></div>
         </div>
       </div>
     </div>
   </section>
-  <div class="contact" id="contact-me">
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact-me">
     <div class="container">
-      <div class="contact-content">
-        <h2>Contact Me</h2>
-        <p class="mail">
-          Get in touch with me <i class="fas fa-arrow-right"></i> krroshan4646@gmail.com
-        </p>
-        <p class="links">Or find me on:</p>
-        <a href="https://www.linkedin.com/in/roshankr09/" target="blank"><i class="fab fa-linkedin">
-            Linkedin</i></a>
-        <a href="https://github.com/roshankraveendrababu" target="blank"><i class="fab fa-github"></i> Github</a>
-        <a href="https://dev.to/roshankr" target="blank"><i class="fab fa-dev"></i> Dev Community</a>
-        <a href="https://twitter.com/roshankr0912" target="blank"><i class="fab fa-twitter"> Twitter</i></a>
-        <a href="https://www.instagram.com/roshan_._kr/" target="blank"><i class="fab fa-instagram"></i> Instagram</a>
+      <h2>Contact Me</h2>
+      <p>Get in touch at: <a href="mailto:krroshan4646@gmail.com">krroshan4646@gmail.com</a></p>
+      <p>Find me on:</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/roshankr09/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
+        <a href="https://github.com/roshankraveendrababu" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+        <a href="https://dev.to/roshankr" target="_blank"><i class="fab fa-dev"></i>Dev Community</a>
+        <a href="https://twitter.com/roshankr0912" target="_blank"><i class="fab fa-twitter"></i>Twitter</a>
+        <a href="https://www.instagram.com/roshan_._kr/" target="_blank"><i class="fab fa-instagram"></i>Instagram</a>
       </div>
     </div>
-  </div>
-  <!-- JAVASCRIPT -->
-  <script src="app.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-</body>
+  </section>
 
+  <script src="app.js"></script>
+</body>
 </html>
+
