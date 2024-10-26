@@ -1,0 +1,146 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styling */
+.header {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.menu-items {
+    list-style: none;
+    display: flex;
+}
+
+.menu-items li {
+    margin: 0 1rem;
+}
+
+.menu-items a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.menu-items a:hover {
+    color: #ffd700;
+}
+
+/* Home section */
+.home-content {
+    height: 100vh;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #333;
+    padding-top: 80px;
+}
+
+.name h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.name p {
+    font-size: 1.25rem;
+    color: #555;
+}
+
+/* About Me section */
+.about-me {
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.about-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.skills .bar {
+    margin: 1rem 0;
+    padding: 0.25rem;
+    background: #ddd;
+    border-radius: 10px;
+}
+
+.progress-line span {
+    display: block;
+    height: 10px;
+    background: #2575fc;
+    width: 80%; /* Adjust width based on skill level */
+    border-radius: 10px;
+}
+
+/* Portfolio Section */
+.portfolio-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.portfolio .proj-1,
+.portfolio .proj-2 {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    flex: 1 1 45%;
+    max-width: 45%;
+}
+
+.proj-heading h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* Contact Section */
+.contact-content {
+    text-align: center;
+    padding: 2rem;
+    background: #6a11cb;
+    color: #fff;
+}
+
+.contact-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact-content .mail {
+    font-size: 1.2rem;
+}
+
+/* Footer Link Styling */
+.contact-content a {
+    color: #ffd700;
+    margin: 0.5rem;
+    text-decoration: none;
+}
